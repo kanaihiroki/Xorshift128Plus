@@ -2,4 +2,4 @@
 This package provides System.Random.Xorshift128plus module,
 which contains xorshift128plus random number generator.
 
-See also [hackage information](http://www.google.com).
+See also [hackage information](http://hackage.haskell.org/package/Xorshift128Plus).
