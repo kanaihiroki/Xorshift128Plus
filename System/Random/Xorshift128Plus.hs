@@ -44,8 +44,10 @@ See <http://creativecommons.org/publicdomain/zero/1.0/>.
 --   let (v, gen') = 'next01' gen
 -- @
 module System.Random.Xorshift128Plus(
+  -- * Gen: pseudo-random number generator
   Gen(..),
   initialize,
+  -- * generate random number
   next,
   next01,
   next#

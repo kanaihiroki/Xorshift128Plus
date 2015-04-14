@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                Xorshift128Plus
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Pure haskell implementation of xorshift128plus random number generator.
 description:
             This package contains pure haskell implementation of
@@ -12,7 +12,7 @@ description:
             so that which is not encapusulated for simplicity.
             .
             Please see <http://xorshift.di.unimi.it/xorshift128plus.c original C implementation>
-            and <http://xorshift.di.unimi.it/ comparison of otther algorithms>.
+            and <http://xorshift.di.unimi.it/ comparison of other algorithms>.
 
 license:             PublicDomain
 license-file:        LICENSE
@@ -28,7 +28,7 @@ library
   exposed-modules:     System.Random.Xorshift128Plus
   -- other-modules:
   -- other-extensions:
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.7 && <4.9
   -- hs-source-dirs:
   default-language:    Haskell2010
   ghc-options:         -O3 -fexcess-precision
